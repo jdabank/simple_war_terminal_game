@@ -32,10 +32,6 @@ const drawCards = () => {
     cpu.deck.shift()
 }
 
-const war = () => {
-
-}
-
 const compareHands = () => {
     if (ranks.indexOf(player.hand[0].rank) > ranks.indexOf(cpu.hand[0].rank)){
         console.log("Player has won the hand!")
